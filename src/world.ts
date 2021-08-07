@@ -5,7 +5,7 @@ export default class World {
     this.message = message
   }
 
-  public sayHello(element: HTMLElement | null): void {
+  public sayHello(element: HTMLElement | null) {
     if (element) {
       element.innerText = this.message
     }
